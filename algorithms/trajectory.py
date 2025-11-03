@@ -16,7 +16,7 @@ class TrajectoryStep:
 
 @dataclass 
 class Trajectory:
-    """Complete trajectory of state-action-reward sequences."""
+    """Complete trajectory of state-action-reward sequences"""
     trajectory_id: str
     environment: str
     initial_state: str
